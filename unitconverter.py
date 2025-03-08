@@ -1,9 +1,6 @@
 import streamlit as st
 from pint import UnitRegistry
 
-# Initialize unit registry
-ureg = UnitRegistry()
-
 # Supported categories and units
 categories = {
     "Length": ["meter", "kilometer", "centimeter", "millimeter", "mile", "yard", "foot", "inch"],
